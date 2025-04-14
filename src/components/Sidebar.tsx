@@ -29,10 +29,10 @@ export default function Sidebar() {
           />
         </a>
 
-        <div className="flex items-center justify-center gap-2 bg-white text-xl text-blue-600 font-bold py-2 rounded-lg mb-6">
+        <a href="/dashboard" className="flex cursor-pointer items-center justify-center gap-2 bg-white text-xl text-blue-600 font-bold py-2 rounded-lg mb-6">
           <LayoutDashboard size={28} className="text-blue-600" />
           <span>Tableau de bord</span>
-        </div>
+        </a>
 
         {/* <div className="flex items-center justify-center mb-4">
     <img src="/user.jpeg" alt="user" className="w-25 h-25 rounded-full" />
