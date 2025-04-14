@@ -13,7 +13,7 @@ export default function Sidebar() {
   return (
     <>
       {/* <aside className="w-64 h-screen bg-[#1998D3] text-white flex flex-col p-6 shadow-lg"> */}
-      <aside className="fixed top-0 left-0 w-64 h-screen bg-[#1998D3] text-white flex flex-col p-6 shadow-lg z-50">
+      <aside className="fixed top-0 left-0 w-64 h-screen bg-[#8EDBFF] text-white flex flex-col p-6 shadow-lg z-50">
         {/* <div className="ml-7 flex items-center justify-center w-35 h-15 bg-white rounded-xs mb-6">
     <img src="/logo.png" alt="Logo" className="w-25 h-25 object-contain" />
   </div> */}
@@ -29,8 +29,8 @@ export default function Sidebar() {
           />
         </a>
 
-        <a href="/dashboard" className="flex cursor-pointer items-center justify-center gap-2 bg-white text-xl text-blue-600 font-bold py-2 rounded-lg mb-6">
-          <LayoutDashboard size={28} className="text-blue-600" />
+        <a href="/dashboard" className="flex cursor-pointer items-center justify-center gap-2 bg-white text-xl text-[#1998D3] font-bold py-2 rounded-lg mb-6">
+          <LayoutDashboard size={28} className="text-[#1998D3]" />
           <span>Tableau de bord</span>
         </a>
 
@@ -50,32 +50,32 @@ export default function Sidebar() {
             href="/"
             className="hover:bg-white/10 px-3 py-2 font-bold text-lg rounded transition flex items-center gap-3"
           >
-            <Home size={25} className="text-blue-800" /> Accueil
+            <Home size={25} className="text-[#1998D3]" /> Accueil
           </a>
           <a
             href="/mes-rendezvous"
             className="hover:bg-white/10 px-3 py-2 font-bold text-lg rounded transition flex items-center gap-3"
           >
-            <CalendarCheck size={25} className="text-blue-800" /> Mes
+            <CalendarCheck size={25} className="text-[#1998D3]" /> Mes
             rendez-vous
           </a>
           <a
             href="/mon-compte"
             className="hover:bg-white/10 px-3 py-2 font-bold text-lg rounded transition flex items-center gap-3"
           >
-            <User size={25} className="text-blue-800" /> Mon compte
+            <User size={25} className="text-[#1998D3]" /> Mon compte
           </a>
           <a
             href="/mes-patients"
             className="hover:bg-white/10 px-3 py-2 font-bold text-lg rounded transition flex items-center gap-3"
           >
-            <Users size={25} className="text-blue-800" /> Mes Patients
+            <Users size={25} className="text-[#1998D3]" /> Mes Patients
           </a>
         </nav>
 
         <div className="mt-auto">
           <button className="hover:bg-white/10 px-4 py-2 rounded items-center text-2xl font-bold flex gap-3">
-            <LogOut size={30} /> Déconnexion
+            <LogOut size={25} className="text-[#1998D3]"/> Déconnexion
           </button>
         </div>
       </aside>

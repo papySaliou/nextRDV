@@ -32,9 +32,9 @@ export default function RootLayout({
         
         <main className="px-10 pt-0">{children}</main>
 
-        <footer className="mb-4 text-center font-black text-sm text-gray-500">
+        {/* <footer className="mb-4 text-center font-black text-sm text-gray-500">
           © {new Date().getFullYear()} RendezVous+
-        </footer>
+        </footer> */}
       </body>
     </html>
   );
