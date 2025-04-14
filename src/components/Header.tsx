@@ -39,6 +39,7 @@ export default function Header() {
           <Link href="/" className="hover:text-[#1998D3]">Accueil</Link>
           <Link href="/mes-rendezvous" className="hover:text-[#1998D3]">Mes rendez-vous</Link>
           <Link href="/mon-compte" className="hover:text-[#1998D3]">Mon compte</Link>
+          <Link href="/a-propos" className="hover:text-[#1998D3]">A Propos</Link>
         </div>
 
         {/* Desktop buttons */}

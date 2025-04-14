@@ -1,18 +1,18 @@
-import Sidebar from "@/components/Sidebar";
+import Sidebar from '@/components/Sidebar'
+import React from 'react'
 
-export default function MonComptePage() {
+export default function MesPatientspage() {
   return (
     <main className="flex h-screen">
           <Sidebar />
           <div className="ml-64 px-6 py-10">
             <div className="max-w-3xl mx-auto">
               
-        <h1 className="text-2xl font-bold">Mon Compte</h1>
+        <h1 className="text-2xl font-bold">Mes Patients</h1>
     
             </div>
             </div>
         
       </main>
-
-  );
+  )
 }
