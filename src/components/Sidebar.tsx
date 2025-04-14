@@ -25,7 +25,7 @@ export default function Sidebar() {
           <img
             src="/logo.png"
             alt="Logo"
-            className="w-24 h-24 object-contain"
+            className="w-24 h-24 object-cover"
           />
         </a>
 
