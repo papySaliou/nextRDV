@@ -44,7 +44,7 @@ export default function Dashboardpage() {
                 </a>
               </div>
               <h2 className="px-23 text-lg items-center justify-center  font-semibold text-white">
-                Listes de Rendez-vous
+                Listes des Rendez-vous
               </h2>
             </div>
 
@@ -52,7 +52,7 @@ export default function Dashboardpage() {
             <div className="bg-green-700 rounded-lg shadow-md p-5">
               <div className="flex items-center justify-center text-lg ">
                 <div className="bg-white rounded-xl font-bold  w-12 h-10 flex items-center justify-center mb-4">
-                  98
+                  62
                 </div>
                 <a
                   href="/mes-patients"
@@ -62,7 +62,7 @@ export default function Dashboardpage() {
                 </a>
               </div>
               <h2 className="px-23 text-lg items-center justify-center  font-semibold text-white">
-                Listes de Rendez-vous
+                Listes des Patients
               </h2>
             </div>
 
@@ -84,7 +84,7 @@ export default function Dashboardpage() {
                 </a>
               </div>
               <h2 className="px-23 text-lg items-center justify-center  font-semibold text-white">
-                Listes de Rendez-vous
+                Listes des Rendez-vous
               </h2>
             </div>
 
@@ -92,7 +92,7 @@ export default function Dashboardpage() {
             <div className="bg-[#8EDBFF] rounded-lg shadow-md p-5">
               <div className="flex items-center justify-center text-lg ">
                 <div className="bg-white rounded-xl font-bold  w-12 h-10 flex items-center justify-center mb-4">
-                  98
+                  62
                 </div>
                 <a
                   href="/mes-patients"
@@ -102,7 +102,7 @@ export default function Dashboardpage() {
                 </a>
               </div>
               <h2 className="px-23 text-lg items-center justify-center  font-semibold text-white">
-                Listes de Rendez-vous
+              Listes des Patients
               </h2>
             </div>
 

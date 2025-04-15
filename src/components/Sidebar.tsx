@@ -13,7 +13,7 @@ export default function Sidebar() {
   return (
     <>
       {/* <aside className="w-64 h-screen bg-[#1998D3] text-white flex flex-col p-6 shadow-lg"> */}
-      <aside className="fixed top-0 left-0 w-64 h-screen bg-[#8EDBFF] text-white flex flex-col p-6 shadow-lg z-50">
+      <aside className="fixed top-0 left-0 w-70 h-screen bg-[#8EDBFF] text-white flex flex-col p-6 shadow-lg z-50">
         {/* <div className="ml-7 flex items-center justify-center w-35 h-15 bg-white rounded-xs mb-6">
     <img src="/logo.png" alt="Logo" className="w-25 h-25 object-contain" />
   </div> */}
